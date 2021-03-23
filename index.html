@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="description" content="Simon's Game" />
+    <meta name="author" content="Erfan Paslar" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <link rel="icon" href="simon.png" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Concert+One&display=swap"
+      rel="stylesheet"
+    />
+    <title>Simon says</title>
+  </head>
+
+  <body
+    style="
+      margin-left: 0px;
+      margin-top: 0px;
+      margin-right: 0px;
+      margin-bottom: 0px;
+    "
+  >
+    <h1 id="level" class="levelNumber">Level:0</h1>
+    <h2 id="turn" class="turns">Your</h2>
+    <div>
+      <button id="green" class="gbutton green btn" onclick=""></button>
+      <button id="red" class="rbutton red btn" onclick=""></button>
+      <br />
+      <button id="yellow" class="ybutton yellow btn" onclick=""></button>
+      <button id="blue" class="bbutton blue btn" onclick=""></button>
+    </div>
+    <h5 class="h6info">
+      Copyright © <span id="thisYear"></span>
+      <a class="ainfo" href="https://erfanpaslar.ir" title="That's me!"
+        >Erfan Paslar</a
+      >. All rights received.
+    </h5>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    <script src="main.js"></script>
+  </body>
+</html>

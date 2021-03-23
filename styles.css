@@ -1,0 +1,152 @@
+body {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  background: black;
+  user-select: none;
+  cursor: none;
+  overflow: hidden;
+}
+
+.levelNumber {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  z-index: 100;
+  font-size: 3rem;
+  width: 100%;
+  top: 10%;
+  text-align: center;
+  font-family: "Concert One", cursive;
+}
+
+.turns {
+  position: absolute;
+  color: rgb(0, 0, 0);
+  z-index: 100;
+  font-size: 2rem;
+  width: 20%;
+  left: 2%;
+  text-align: center;
+  font-family: "Concert One", cursive;
+}
+
+.btn {
+  cursor: pointer;
+}
+
+.red {
+  position: absolute;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 50%;
+  height: 50%;
+  right: 0;
+  background: #d63447;
+}
+
+.red:active {
+  background: #d63447;
+  transform: scale(2);
+  z-index: 10;
+}
+
+.redShadow {
+  background: #ff6d80;
+}
+
+.green {
+  position: absolute;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 50%;
+  height: 50%;
+  left: 0;
+  background: #22bf72;
+}
+
+.greenShadow {
+  background: #55ee9c;
+}
+
+.green:active {
+  background: #22bf72;
+  transform: scale(2);
+  z-index: 10;
+}
+
+.yellow {
+  position: absolute;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 50%;
+  height: 50%;
+  left: 0;
+  bottom: 0;
+  background: #fdda4a;
+}
+
+.yellow:active {
+  background: #fdda4a;
+  transform: scale(2);
+  z-index: 10;
+}
+
+.yellowShadow {
+  background: #ffef88;
+}
+
+.blue {
+  position: absolute;
+  outline: 0;
+  margin: 0;
+  padding: 0;
+  border: 0;
+  width: 50%;
+  height: 50%;
+  right: 0;
+  bottom: 0;
+  background: #46b3e6;
+}
+
+.blue:active {
+  background: #46b3e6;
+  transform: scale(2);
+  z-index: 10;
+}
+
+.blueShadow {
+  background: #84d6fb;
+}
+
+@import url("https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@600&display=swap");
+
+/* h6 */
+
+.h6info {
+  overflow-x: hidden;
+  overflow-y: hidden;
+  position: absolute;
+  text-align: center;
+  bottom: 3%;
+  color: #fff;
+  width: 100%;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+/* a */
+
+.ainfo {
+  color: #fff;
+  text-decoration: none;
+  font-family: "Source Sans Pro", sans-serif;
+}
+
+.ainfo:hover {
+  color: #000;
+}
