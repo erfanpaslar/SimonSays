@@ -61,7 +61,7 @@ $("button").bind("click", function clicked() {
   }
 
   playSound("sounds/" + buttonId + ".mp3");
-  console.log(listOfMoves[counter] + "?==" + buttonId);
+  // console.log(listOfMoves[counter] + "?==" + buttonId);
   if (listOfMoves[counter] != buttonId) {
     counter = -1;
   }
